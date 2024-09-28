@@ -1,0 +1,22 @@
+hajarghalfi@hajars-MacBook-Pro IOD % mkdir firstfolder
+hajarghalfi@hajars-MacBook-Pro IOD % cd firstfolder
+hajarghalfi@hajars-MacBook-Pro firstfolder % mkdir secondfolder
+hajarghalfi@hajars-MacBook-Pro firstfolder % pwd
+/Users/hajarghalfi/Desktop/IOD/firstfolder
+hajarghalfi@hajars-MacBook-Pro firstfolder % cd secondfolder
+hajarghalfi@hajars-MacBook-Pro secondfolder % pwd
+/Users/hajarghalfi/Desktop/IOD/firstfolder/secondfolder
+hajarghalfi@hajars-MacBook-Pro secondfolder % cd ..
+hajarghalfi@hajars-MacBook-Pro firstfolder % rm firstfolder
+rm: firstfolder: No such file or directory
+hajarghalfi@hajars-MacBook-Pro firstfolder % cd..
+zsh: command not found: cd..
+hajarghalfi@hajars-MacBook-Pro firstfolder % cd ..
+hajarghalfi@hajars-MacBook-Pro IOD % rm firstfolder
+rm: firstfolder: is a directory
+hajarghalfi@hajars-MacBook-Pro IOD % ls
+firstfolder     inclass         test
+hajarghalfi@hajars-MacBook-Pro IOD % rm firstfolder
+rm: firstfolder: is a directory
+hajarghalfi@hajars-MacBook-Pro IOD % rm -rf firstfolder
+hajarghalfi@hajars-MacBook-Pro IOD % 
